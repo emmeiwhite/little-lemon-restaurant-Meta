@@ -1,0 +1,45 @@
+/* --- CSS Reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* --- Mobile First Design --- */
+section,
+footer,
+main,
+nav {
+  padding: 0 1.25rem;
+  @media (min-width: 768px) {
+    padding: 0 1.75rem;
+  }
+}
+
+/* --- Header Section --- */
+
+.header {
+  text-align: center;
+}
+
+.main-logo {
+  width: 300px;
+  height: auto;
+}
