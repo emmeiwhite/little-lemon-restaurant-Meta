@@ -22,6 +22,14 @@ h2 {
   font-size: 2rem;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* --- Mobile First Design --- */
 section,
 footer,
@@ -37,9 +45,30 @@ nav {
 
 .header {
   text-align: center;
+  padding-top: 1rem;
 }
 
 .main-logo {
   width: 300px;
+  height: auto;
+}
+
+/* --- Nav Section --- */
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+/* --- Footer Section --- */
+.footer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 50px;
   height: auto;
 }
